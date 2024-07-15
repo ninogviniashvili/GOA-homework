@@ -13,8 +13,6 @@ is_ugly = "false"
 
 
 #print(name + " " +surname)
-
-
 print(type(age))
 print(type(name))
 print(type(surname))
