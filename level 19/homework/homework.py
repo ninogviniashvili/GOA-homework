@@ -120,10 +120,10 @@ print(name == lastname)
 print(name != lastname)
 
 
-#ახალი:
+#New:
 
-#1. დაწერეთ if-else განცხადება, რომელიც დაბეჭდავს "დილა მშვიდობისა!" თუ მიმდინარე საათი 
-# 12-მდეა და "დილა მშვიდობისა!" თუ ეს არის 12 ან უფრო გვიან.
+#1. Write an if-else statement that prints "Good morning!" if the current hour is before 12, 
+# and "Good afternoon!" if it is 12 or later.
 
 curent_hour = 10
 if curent_hour < 12:
@@ -131,18 +131,15 @@ if curent_hour < 12:
 else:
     print("good afternoon")
 
-
-#2. შექმენით if-else განცხადება, რათა შეამოწმოთ თუ ტემპერატურა 30 გრადუსს აღემატება. თუ ასეა,
-#  დაბეჭდეთ "გარეთ ცხელა!"; წინააღმდეგ შემთხვევაში, დაბეჭდეთ „არ არის ძალიან ცხელი“.
+#2. Create an if-else statement to check if the temperature exceeds 30 degrees. If it does, print "It's hot outside!"; otherwise, print "It's not too hot."
 
 temperature = 35
 if temperature > 30:
     print("its hot outside")
-else:
-    print("its not too hot outside")
-   
+else: 
+    print("its not too hot outside") 
 
-#3. შექმენით if-else განცხადება, რათა დაადგინოთ არის თუ არა ადამიანი მოზარდი. თუ ასაკი 19 წელზე ნაკლებია დაბეჭდეთ „შენ მოზარდი ხარ!“; წინააღმდეგ შემთხვევაში დაბეჭდეთ „შენ არ ხარ მოზარდი“.
+#3. Create an if-else statement to determine if a person is a teenager. If the age is less than 19 print "You are a teenager!"; otherwise, print "You are not a teenager."
 
 age = 17
 if age < 19:
