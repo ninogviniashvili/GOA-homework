@@ -50,8 +50,6 @@ print(food[0:3])
 
 musicians = ["Lana Del Rey", "The Neighbourhood", "The Weeknd", "Michael Jackson", "Kanye West", "Travis Scott", "Playboi Carti", "Childish Gambino", "Frank Ocean", "Steve Lacy"]
 
-for i in musicians[3:8]:
-    print(i)
 #               -10                   -9               -8            -7                -6             -5                -4                 -3               -2           -1        
 musicians = ["Lana Del Rey", "The Neighbourhood", "The Weeknd", "Michael Jackson", "Kanye West", "Travis Scott", "Playboi Carti", "Childish Gambino", "Frank Ocean", "Steve Lacy"]
 print(musicians[-2:-5:-1]) 
