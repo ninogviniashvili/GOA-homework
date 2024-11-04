@@ -1,24 +1,23 @@
-import pygame
-dinocolour = 255,255,255
-DINOHEIGHT = 40
-DINOWIDTH = 20
-class Dinosaur:
-    def __init__(self, surfaceHeight):
-        self.x = 60
-        self.y = 0
-        self.yvelocity = 0
-        self.height = DINOHEIGHT
-        self.width = DINOWIDTH
-        self.surfaceHeight = surfaceHeight
-    def jump(self): #When adding classes into function, the first parameter must be the parameter
-        if(self.y == 0): #Only allow jumping if the dinosaur is on the ground to prevent mid air jumps.
-            self.yvelocity = 300
-    def update(self, deltaTime): #Updates the y position of the dinosaur each second
-        self.yvelocity += -500*deltaTime #Gravity
-        self.y += self.yvelocity * deltaTime
-        if self.y < 0: #if the dinosaur sinks into the ground, make velocity and y = 0
-            self.y = 0
-            self.yvelocity = 0
-        
-    def draw(self,display):
-        pygame.draw.rect(display,dinocolour,[self.x,self.surfaceHeight-self.y-self.height,self.width,self.height])
+#1. კომენტარების მეშვეობით ახსენი რა არის .upper().
+#.upper yvela patara asos aqcevs uppercasad
+#2. კომენტარების მეშვეობით ახსენი რა არის .lower()
+#.lower yvela asos aqcevs patara asod
+#. ცვლადში შეინახე სტრინგი დიდი ასოებით, შემდეგ .capitalize() ფუნქციის მეშვეობით გადააქციე პირველი ასო დიდ ასოდ, დააკვირდი რა მოუვათ სხვა ასოებს.
+name = "FRANK OCEAN"
+print(name.capitalize())
+#4. მომხარებელს შემოატანინე სახელი და გვარი ცალ ცალკე, შემდეგ გადააქციე პატარა ასოებად სახელი დაუმატე გვარი ჩვეულებრივად და დაპრინტე.
+name = input("ENTER YOUR NAME IN UPPERCASE: ")
+surname = input("ENTER YOUT SURNAME IN UPPERCASE: ")
+print(name.lower() + " "  + surname)
+#5. შექმენი ცვლადი name='goalorienteacademy', შემდეგ .find() ფუნქციის მეშვეობით იპოვე ამ სტრინგში:
+
+#  1. 'o'
+# 2. 'a'
+#  3. 'y'
+#  4. 'x'.
+
+name = "goalorienteacademy"
+print(name.find("o"))
+print(name.find("a"))
+print(name.find("y"))
+print(name.find("x"))
