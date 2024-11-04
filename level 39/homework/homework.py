@@ -63,9 +63,9 @@ food = ["pasta", "lazania", "salad", "steak", "French fries", "Caesar salad", "P
 # მაქსიმალურ რიცხვს, მინიმალურ რიცხვს, რიცხვების ჯამს და list-ის სიგრძეს.
 
 def list(numbers):
-    max_number = max(numbers)  # მაქსიმალური რიცხვის პოვნა
-    min_number = min(numbers)  # მინიმალური რიცხვის პოვნა
-    total_sum = sum(numbers)    # რიცხვების ჯამის პოვნა
+    max_number = max(numbers) 
+    min_number = min(numbers)  
+    total_sum = sum(numbers)  
     length = len(numbers) 
     return numbers
 
