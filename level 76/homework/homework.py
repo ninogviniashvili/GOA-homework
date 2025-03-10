@@ -2,7 +2,6 @@
 # 2. Create a function that counts how many vowels are in a word, ignoring case.
 # 3. Create a function that checks if a word is a palindrome. A palindrome is a word that reads the same forward and backward, like 'racecar' or 'level', ignoring capitalization.
 # 4. Write a function that reverses a given string.
-# 5. Create a function that finds the longest word in a sentence. (მოიძიეთ ინფრომაცია split()-ზე.
 
 
 # 1
@@ -45,6 +44,3 @@ else:
 def reverse(word):
     return word[::-1]
 print(reverse("welcome"))
-
-# 5
-
