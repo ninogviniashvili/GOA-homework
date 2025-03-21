@@ -6,20 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-
-  
-    <input type="text" id="input" placeholder="enter name">
+    <input type="text" id="input" placeholder="favorite color">
     <button onclick="getValue()">submit</button>
 
     <br>
 
     <h3 id="starting"></h3>
     <script>
-        function getValue(){
-            let inputValue = document.getElementById('input').value;
-            let startingText = document.getElementById('starting');
-            startingText.textContent = "hi " + inputValue
-        }
+    function getValue(){
+        let inputValue = document.getElementById('input').value;
+        let startingText = document.getElementById('starting');
+        startingText.textContent = "your favorite color is " + inputValue
+    }
     </script>
 </body>
 </html>
